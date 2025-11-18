@@ -2,7 +2,7 @@ def split_before_each_uppercases(formula):
     start = 0
     split_formula = []
     if len(formula) == 0:
-        return []
+      return []
     else:
       for i in range(1, len(formula)):
           if formula[i].isupport():
